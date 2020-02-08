@@ -33,9 +33,9 @@ pipeline {
           echo "Only when we fail running the first stage."
         }
       }
-      options {
+      optionsss {
         timeout(time: 120, unit: 'MINUTES')
       }
     }
   }
-
+}
